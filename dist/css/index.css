@@ -1,0 +1,1705 @@
+.public {
+  width: 1000px;
+  margin: 0 auto;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.clear {
+  clear: both;
+}
+.header {
+  width: 100%;
+  height: 120px;
+  background: url(../img/header_bg.jpg) no-repeat;
+}
+.header .public .logo {
+  float: left;
+}
+.header .public .logo img {
+  display: block;
+}
+.header .public .meau {
+  float: left;
+  font-size: 14px;
+  margin-left: 100px;
+}
+.header .public .meau > li {
+  color: white;
+  float: left;
+  padding: 0 11px;
+  line-height: 120px;
+  position: relative;
+}
+.header .public .meau > li img {
+  display: block;
+  float: right;
+  margin-top: 48px;
+  clear: both;
+}
+.header .public .meau > li:hover .secondmeau {
+  cursor: pointer;
+}
+.header .public .meau > li .secondmeau {
+  display: none;
+  font-size: 12px;
+  position: absolute;
+  z-index: 2;
+  width: 120px;
+}
+.header .public .meau > li .secondmeau > li {
+  background: #322246;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.header .public .meau > li .secondmeau > li:hover {
+  padding-left: 20px;
+  transition: padding-left 3000;
+  background: #221236;
+}
+.header .public .meau > li .secondmeau > li img {
+  margin-top: 10px;
+}
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0;
+}
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px;
+}
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit;
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block;
+}
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block;
+}
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block;
+}
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none;
+}
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none;
+}
+.footer {
+  width: 100%;
+  height: 348px;
+  background: url(../img/yinyue_bg.jpg) no-repeat;
+}
+.footer .public {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.footer .public .fontw {
+  width: 325px;
+  margin: 0 auto;
+}
+.footer .public .fontw span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.footer .public .last {
+  margin-top: 30px;
+  text-align: center;
+  border-top: 1px dashed white;
+  padding: 30px;
+  font-size: 14px;
+  color: white;
+}
+.banner {
+  width: 100%;
+  color: #322246;
+  position: relative;
+}
+.banner img {
+  display: block;
+}
+.banner img {
+  width: 100%;
+}
+.banner .img1 {
+  display: inline-block;
+  position: absolute;
+  top: 160px;
+  left: 0;
+}
+.banner .img2 {
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
+.banner .img3 {
+  display: inline-block;
+  position: absolute;
+  top: 300px;
+  left: 430px;
+}
+.banner .img4 {
+  display: inline-block;
+  position: absolute;
+  top: 180px;
+  left: 400px;
+}
+.banner .img5 {
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  left: 320px;
+}
+.banner .img6 {
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+}
+.banner .img7 {
+  display: inline-block;
+  position: absolute;
+  top: 160px;
+  left: 0;
+}
+.banner .img8 {
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
+.banner .img9 {
+  display: inline-block;
+  position: absolute;
+  top: 300px;
+  left: 430px;
+}
+.banner .btnGroup {
+  width: 100%;
+  height: 29px;
+  position: absolute;
+  bottom: 30px;
+}
+.banner .btnGroup .btnGroupCount {
+  width: 150px;
+  height: 29px;
+  margin: 0 auto;
+}
+.banner .btnGroup .btnGroupCount li {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+}
+.banner .btnGroup .btnGroupCount li:hover {
+  cursor: pointer;
+}
+.banner .btnGroup .btnGroupCount li.left {
+  background: url(../img/lefticon.png);
+}
+.banner .btnGroup .btnGroupCount li.left:hover {
+  background: url(../img/lefticonbg.png);
+}
+.banner .btnGroup .btnGroupCount li.center {
+  width: 82px;
+}
+.banner .btnGroup .btnGroupCount li.center div {
+  float: left;
+  margin-top: 3px;
+  border-radius: 14px;
+  border: 1px solid gray;
+  margin: 7px 0px 0px 20px;
+  height: 12px;
+  line-height: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.banner .btnGroup .btnGroupCount li.center div span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: gray;
+}
+.banner .btnGroup .btnGroupCount li.center div span.active {
+  background: blue;
+}
+.banner .btnGroup .btnGroupCount li.right {
+  background: url(../img/righticon.png);
+}
+.banner .btnGroup .btnGroupCount li.right:hover {
+  background: url(../img/righticonbg.png);
+}
+.project {
+  background: #f1f2f6;
+}
+.project .public {
+  color: #311759;
+  padding-bottom: 48px;
+}
+.project .public .goon {
+  text-align: center;
+  padding-top: 48px;
+  font-size: 0px;
+  cursor: pointer;
+}
+.project .public .goon img {
+  width: 58px;
+  height: 58px;
+}
+.project .public h1 {
+  text-align: center;
+  margin: 60px 0 0 0;
+  font-family: "SimSun";
+}
+.project .public p {
+  text-align: center;
+  margin-top: 0;
+}
+.project .public .pointes {
+  text-align: center;
+  padding: 20px 0 70px 0;
+}
+.project .public .mainbox {
+  width: 1000px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.project .public .mainbox .nav {
+  width: 19px;
+  height: 400px;
+  top: 20px;
+  position: absolute;
+  z-index: 2;
+  background: url(../img/chanpin_nowline_bgline.png) no-repeat;
+  background-repeat: repeat-y;
+  background-position-x: 10px;
+}
+.project .public .mainbox .nav span {
+  background: url(../img/chanpin_nowline_xiaoquan.png);
+  width: 11px;
+  height: 11px;
+  display: block;
+  margin-top: 67px;
+  margin-left: 4px;
+}
+.project .public .mainbox .nav span:first-child {
+  margin-top: 0;
+  margin-left: 0;
+}
+.project .public .mainbox .nav span.active {
+  width: 19px;
+  height: 19px;
+  background: url(../img/chanpin_nowline_daquan.png);
+}
+.project .public .mainbox .nav span:hover {
+  cursor: pointer;
+}
+.project .public .mainbox .btn-group {
+  height: 29px;
+  background-image: url(../img/next&prev_line.png);
+  background-repeat: repeat-x;
+  background-position: 10px;
+  width: 540px;
+  position: absolute;
+  top: 210px;
+  left: 460px;
+  z-index: 3;
+}
+.project .public .mainbox .btn-group span {
+  width: 29px;
+  height: 29px;
+  display: inline-block;
+}
+.project .public .mainbox .btn-group .left {
+  background: url(../img/lefticon.png);
+  float: left;
+}
+.project .public .mainbox .btn-group .left:hover {
+  background: url(../img/lefticonbg.png);
+  cursor: pointer;
+}
+.project .public .mainbox .btn-group .right {
+  background: url(../img/righticon.png);
+  float: right;
+}
+.project .public .mainbox .btn-group .right:hover {
+  background: url(../img/righticonbg.png);
+  cursor: pointer;
+}
+.project .public .mainbox .count {
+  width: 100%;
+  height: 450px;
+  padding: 0px 30px;
+  position: absolute;
+}
+.project .public .mainbox .count .imgbox {
+  float: left;
+  padding: 0 30px;
+}
+.project .public .mainbox .count .countright {
+  width: 540px;
+  height: 450px;
+  float: left;
+}
+.project .public .mainbox .count .countright .title {
+  height: 60px;
+}
+.project .public .mainbox .count .countright .title h3 {
+  margin: 0;
+  font-family: "SimSun";
+  background: url('../img/pen_line.png') no-repeat;
+  height: 60px;
+  background-repeat: repeat-x;
+  background-position-y: 59px;
+  width: 490px;
+  font-size: 30px;
+  float: left;
+}
+.project .public .mainbox .count .countright .title span {
+  display: inline-block;
+  background: url(../img/pen.png) no-repeat;
+  width: 50px;
+  height: 60px;
+  background-size: 100% 100%;
+  float: right;
+}
+.project .public .mainbox .count .countright .overview {
+  padding-left: 10px;
+  padding-top: 30px;
+  color: #565559;
+}
+.project .public .mainbox .count .countright .overview img {
+  width: 96px;
+  height: 96px;
+  display: block;
+  float: left;
+}
+.project .public .mainbox .count .countright .overview .overviewcount {
+  width: 420px;
+  padding-left: 10px;
+  float: left;
+}
+.project .public .mainbox .count .countright .overview .overviewcount h3 {
+  margin: 0;
+}
+.project .public .mainbox .count .countright .overview .overviewcount p {
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+  line-height: 24px;
+}
+.project .public .mainbox .count .countright .font {
+  margin-top: 100px;
+}
+.project .public .mainbox .count .countright .font p {
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+  color: #565559;
+}
+.project .public .mainbox .count .countright .bott {
+  padding-top: 25px;
+}
+.project .public .mainbox .count .countright .bott .img1 {
+  height: 18px;
+}
+.project .public .mainbox .count .countright .bott .img1 img {
+  float: right;
+  margin-right: 160px;
+}
+.project .public .mainbox .count .countright .bott .img2 {
+  display: block;
+  float: right;
+}
+.project .public .mainbox .count .countright .bott p {
+  text-align: right;
+  margin: 0;
+  color: #565559;
+  padding-right: 25px;
+  font-size: 14px;
+}
+.company {
+  width: 100%;
+  height: 923px;
+  background: url(../img/mokuai02_bg.jpg) no-repeat;
+}
+.company .public {
+  color: white;
+}
+.company .public h1 {
+  text-align: center;
+  padding: 60px 0 0 0;
+  font-family: "SimSun";
+  padding-top: 120px;
+  margin: 0;
+}
+.company .public p {
+  text-align: center;
+  margin-top: 10px;
+}
+.company .public .pointes {
+  text-align: center;
+  padding: 20px 0 70px 0;
+}
+.company .public .mainbox {
+  width: 1000px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.company .public .mainbox .btn-group {
+  height: 29px;
+  background-image: url(../img/next&prev_line.png);
+  background-repeat: repeat-x;
+  background-position: 10px;
+  width: 540px;
+  position: absolute;
+  top: 210px;
+  left: 460px;
+  z-index: 3;
+}
+.company .public .mainbox .btn-group span {
+  width: 29px;
+  height: 29px;
+  display: inline-block;
+}
+.company .public .mainbox .btn-group .left {
+  background: url(../img/lefticon.png);
+  float: left;
+}
+.company .public .mainbox .btn-group .left:hover {
+  background: url(../img/lefticonbg.png);
+  cursor: pointer;
+}
+.company .public .mainbox .btn-group .right {
+  background: url(../img/righticon.png);
+  float: right;
+}
+.company .public .mainbox .btn-group .right:hover {
+  background: url(../img/righticonbg.png);
+  cursor: pointer;
+}
+.company .public .mainbox .count {
+  width: 100%;
+  height: 450px;
+  padding: 0px 30px;
+  position: absolute;
+}
+.company .public .mainbox .count .imgbox {
+  float: left;
+  padding: 0 30px;
+}
+.company .public .mainbox .count .countright {
+  width: 540px;
+  height: 450px;
+  float: left;
+}
+.company .public .mainbox .count .countright .title {
+  height: 60px;
+}
+.company .public .mainbox .count .countright .title h3 {
+  margin: 0;
+  font-family: "SimSun";
+  background: url('../img/pen_line.png') no-repeat;
+  height: 60px;
+  background-repeat: repeat-x;
+  background-position-y: 59px;
+  width: 490px;
+  font-size: 30px;
+  float: left;
+}
+.company .public .mainbox .count .countright .title span {
+  display: inline-block;
+  background: url(../img/pen.png) no-repeat;
+  width: 50px;
+  height: 60px;
+  background-size: 100% 100%;
+  float: right;
+}
+.company .public .mainbox .count .countright .overview {
+  padding-left: 10px;
+  padding-top: 30px;
+  color: #565559;
+}
+.company .public .mainbox .count .countright .overview img {
+  width: 96px;
+  height: 96px;
+  display: block;
+  float: left;
+}
+.company .public .mainbox .count .countright .overview .overviewcount {
+  width: 420px;
+  padding-left: 10px;
+  float: left;
+}
+.company .public .mainbox .count .countright .overview .overviewcount h3 {
+  margin: 0;
+}
+.company .public .mainbox .count .countright .overview .overviewcount p {
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+  line-height: 24px;
+}
+.company .public .mainbox .count .countright .line {
+  width: 100%;
+  height: 2px;
+  margin: 0px;
+  margin-top: 50px;
+  background: url(../img/next&prev_line.png);
+}
+.company .public .mainbox .count .countright .font {
+  margin-top: 50px;
+}
+.company .public .mainbox .count .countright .font p {
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+  color: #565559;
+  line-height: 24px;
+}
+.company .public .mainbox .count .countright .font p a {
+  color: white;
+}
+.company .public .mainbox .count .countright .bott {
+  padding-top: 25px;
+}
+.company .public .mainbox .count .countright .bott .img1 {
+  height: 18px;
+}
+.company .public .mainbox .count .countright .bott .img1 img {
+  float: right;
+  margin-right: 160px;
+}
+.company .public .mainbox .count .countright .bott .img2 {
+  display: block;
+  float: right;
+}
+.company .public .mainbox .count .countright .bott p {
+  text-align: right;
+  margin: 0;
+  color: #565559;
+  padding-right: 25px;
+  font-size: 14px;
+}
+.scope {
+  background: #f1f2f6;
+}
+.scope .public .imgicon {
+  text-align: center;
+  padding-top: 35px;
+}
+.scope .public h1 {
+  text-align: center;
+  color: #322246;
+  margin-bottom: 0px;
+}
+.scope .public .bus {
+  text-align: center;
+  color: #322246;
+  margin-top: 10px;
+}
+.scope .public .pointes {
+  color: #322246;
+  text-align: center;
+}
+.scope .public .scopebox {
+  padding: 58px 0;
+  border-bottom: 1px dashed gray;
+}
+.scope .public .scopebox .num1 {
+  font-size: 90px;
+  color: gray;
+  font-family: "宋体";
+  padding-right: 40px;
+  float: left;
+}
+.scope .public .scopebox .title {
+  padding-top: 28px;
+  float: left;
+}
+.scope .public .scopebox .imgbox {
+  padding: 0 28px;
+  float: left;
+}
+.scope .public .scopebox .imgbox img {
+  width: 116px;
+  height: 116px;
+  display: block;
+}
+.scope .public .scopebox .imgbox img:hover {
+  cursor: pointer;
+}
+.scope .public .scopebox .title {
+  text-align: right;
+}
+.scope .public .scopebox .title h4 {
+  margin: 0;
+}
+.scope .public .scopebox .count {
+  float: left;
+  padding-top: 28px;
+}
+.scope .public .scopebox .count p {
+  margin: 2px 0;
+}
+.scope .public .scopebox .yes {
+  padding-left: 60px;
+  padding-top: 28px;
+  float: left;
+}
+.scope .public .scopebox .yes span {
+  display: inline-block;
+  width: 67px;
+  height: 67px;
+  background: url(../img/business_zhankaishouqi.png) no-repeat;
+}
+.scope .public .scopebox .yes span:hover {
+  cursor: pointer;
+}
+.scope .public .scopebox .fontcount {
+  display: none;
+  width: 700px;
+  margin: 0 auto;
+  font-size: 14px;
+  text-indent: 6px;
+  padding-top: 40px;
+}
+.team {
+  background: #f1f2f6;
+}
+.team .public {
+  padding-bottom: 35px;
+  overflow: hidden;
+}
+.team .public .imgicon {
+  text-align: center;
+  padding-top: 35px;
+}
+.team .public h1 {
+  text-align: center;
+  color: #322246;
+  margin-bottom: 0px;
+}
+.team .public .bus {
+  text-align: center;
+  color: #322246;
+  margin-top: 10px;
+}
+.team .public .pointes {
+  color: #322246;
+  text-align: center;
+}
+.team .public .imgbox {
+  position: relative;
+  margin: 80px 0;
+  width: 1000px;
+  height: 188px;
+}
+.team .public .imgbox .imgboxcount {
+  width: 1000px;
+  height: 188px;
+  position: absolute;
+}
+.team .public .imgbox .imgboxcount.move0 {
+  z-index: 2;
+}
+.team .public .imgbox .leftshow {
+  border: 1px solid gray;
+  width: 48%;
+  float: left;
+}
+.team .public .imgbox .leftshow .box1 {
+  text-align: center;
+  width: 156px;
+  margin-top: -75px;
+  color: #322246;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.team .public .imgbox .leftshow .box1 .bgimg {
+  width: 156px;
+  height: 156px;
+  background: url(../img/team_img02.png) no-repeat;
+}
+.team .public .imgbox .leftshow .box1 .active {
+  background: url(../img/team_img01.png) no-repeat;
+}
+.team .public .imgbox .leftshow .box2 {
+  width: 200px;
+  font-size: 12px;
+  float: left;
+  line-height: 28px;
+  margin-left: 40px;
+  padding: 20px 0;
+}
+.team .public .imgbox .leftshow .box2 .message {
+  height: 40px;
+}
+.team .public .imgbox .leftshow .box2 .message .messageimg {
+  height: 40px;
+  width: 31px;
+  background: #d9d9e1;
+  float: left;
+}
+.team .public .imgbox .leftshow .box2 .message .messageimg span {
+  display: block;
+  width: 21px;
+  height: 21px;
+  background: url(../img/team_contact.png) no-repeat;
+  float: left;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.team .public .imgbox .leftshow .box2 .message .send {
+  float: left;
+  width: 165px;
+  height: 40px;
+  text-align: center;
+  background: #565559;
+  line-height: 40px;
+  color: #322246;
+}
+.team .public .imgbox .leftshow .box2 .message .send button {
+  background: #565559;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+.team .public .imgbox .leftshow .box3 {
+  width: 40px;
+  height: 188px;
+  background: #2999d6;
+  float: right;
+}
+.team .public .imgbox .leftshow .box3 div {
+  width: 40px;
+  height: 47px;
+  text-align: center;
+  line-height: 47px;
+}
+.team .public .imgbox .leftshow .box3 div span {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
+.team .public .imgbox .leftshow .box3 div span.icon1 {
+  background: url(../img/team_contact.png) no-repeat;
+  background-position-y: -44px;
+}
+.team .public .imgbox .leftshow .box3 div span.icon2 {
+  background: url(../img/team_contact.png) no-repeat;
+  background-position-y: -88px;
+}
+.team .public .imgbox .leftshow .box3 div span.icon3 {
+  background: url(../img/team_contact.png) no-repeat;
+  background-position-y: -138px;
+}
+.team .public .imgbox .leftshow .box3 div span.icon4 {
+  background: url(../img/team_contact.png) no-repeat;
+  background-position-y: -176px;
+}
+.team .public .imgbox .rightshow {
+  border: 1px solid #565559;
+  width: 48%;
+  float: left;
+  margin-left: 30px;
+}
+.team .public .imgbox .rightshow .box1 {
+  text-align: center;
+  width: 156px;
+  margin-top: -75px;
+  color: #322246;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.team .public .imgbox .rightshow .box1 .bgimg {
+  width: 156px;
+  height: 156px;
+  background: url(../img/team_img03.png) no-repeat;
+}
+.team .public .imgbox .rightshow .box2 {
+  width: 200px;
+  font-size: 12px;
+  float: left;
+  line-height: 28px;
+  margin-left: 40px;
+  padding: 20px 0;
+}
+.team .public .imgbox .rightshow .box2 .message {
+  height: 40px;
+  margin-top: 30px;
+}
+.team .public .imgbox .rightshow .box2 .message .messageimg {
+  height: 40px;
+  width: 31px;
+  background: #d9d9e1;
+  float: left;
+}
+.team .public .imgbox .rightshow .box2 .message .messageimg span {
+  display: block;
+  width: 21px;
+  height: 21px;
+  background: url(../img/team_contact.png) no-repeat;
+  float: left;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.team .public .imgbox .rightshow .box2 .message .send {
+  float: left;
+  width: 165px;
+  height: 40px;
+  text-align: center;
+  background: #565559;
+  line-height: 40px;
+  color: #322246;
+}
+.team .public .imgbox .rightshow .box2 .message .send button {
+  background: #565559;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+.team .public .imgbox .rightshow .box3 {
+  width: 40px;
+  height: 188px;
+  background: #2999d6;
+  float: right;
+}
+.team .public .imgbox .rightshow .box3 div {
+  width: 40px;
+  height: 47px;
+  text-align: center;
+  line-height: 47px;
+  cursor: pointer;
+}
+.team .public .imgbox .rightshow .box3 div span {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+}
+.team .public .imgbox .rightshow .box3 div span.icon1 {
+  background: url(../img/team_contact.png) no-repeat;
+  background-position-y: -44px;
+}
+.team .public .imgbox .rightshow .box3 div span.icon2 {
+  background: url(../img/team_contact.png) no-repeat;
+  background-position-y: -88px;
+}
+.team .public .imgbox .rightshow .box3 div span.icon3 {
+  background: url(../img/team_contact.png) no-repeat;
+  background-position-y: -138px;
+}
+.team .public .imgbox .rightshow .box3 div span.icon4 {
+  background: url(../img/team_contact.png) no-repeat;
+  background-position-y: -176px;
+}
+.team .public .btngroup .btnul {
+  width: 200px;
+  margin: 0 auto;
+}
+.team .public .btngroup .btnul li {
+  display: inline-block;
+}
+.team .public .btngroup .btnul li:nth-child(1) {
+  width: 29px;
+  height: 29px;
+  background: url(../img/lefticon.png) no-repeat;
+}
+.team .public .btngroup .btnul li:nth-child(1):hover {
+  background: url(../img/lefticonbg.png) no-repeat;
+  cursor: pointer;
+}
+.team .public .btngroup .btnul li:nth-child(2) {
+  width: 100px;
+  height: 29px;
+  background-image: url(../img/next&prev_line.png);
+  background-repeat: repeat-x;
+  background-position: 10px;
+}
+.team .public .btngroup .btnul li:nth-child(2) .spans {
+  float: left;
+  border: 1px solid gray;
+  border-radius: 14px;
+  padding: 0 10px;
+  margin-left: 20px;
+  margin-top: 4px;
+  background: white;
+}
+.team .public .btngroup .btnul li:nth-child(2) .spans span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: gray;
+}
+.team .public .btngroup .btnul li:nth-child(2) .spans .active {
+  background: blue;
+}
+.team .public .btngroup .btnul li:nth-child(3) {
+  width: 29px;
+  height: 29px;
+  background: url(../img/righticon.png) no-repeat;
+}
+.team .public .btngroup .btnul li:nth-child(3):hover {
+  background: url(../img/righticonbg.png) no-repeat;
+  cursor: pointer;
+}
+.manbg {
+  width: 100%;
+  height: 31px;
+  background: url(../img/map_topimg.png) no-repeat;
+}
+.Partners .public {
+  padding: 35px 0 100px 0;
+}
+.Partners .public h1 {
+  text-align: center;
+  color: #322246;
+  margin-bottom: 0px;
+}
+.Partners .public .bus {
+  text-align: center;
+  color: #322246;
+  margin-top: 10px;
+}
+.Partners .public .pointes {
+  color: #322246;
+  text-align: center;
+}
+.Partners .public .count {
+  width: 100%;
+}
+.Partners .public .count .pleft {
+  width: 49.8%;
+  border-right: 1px solid gray;
+  float: left;
+  height: 449px;
+}
+.Partners .public .count .pleft h3 {
+  color: #322246;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+.Partners .public .count .pleft p {
+  text-align: left;
+}
+.Partners .public .count .pleft .showimg1 {
+  list-style: none;
+}
+.Partners .public .count .pleft .showimg1 li {
+  float: left;
+  width: 127px;
+  height: 82px;
+  margin: 18px;
+  cursor: pointer;
+}
+.Partners .public .count .pright {
+  width: 48%;
+  float: right;
+}
+.Partners .public .count .pright h3 {
+  font-size: 30px;
+  color: #322246;
+  margin-bottom: 5px;
+}
+.Partners .public .count .pright h3 span {
+  display: inline-block;
+  height: 16px;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 1px solid gray;
+  line-height: 14px;
+  border-radius: 14px;
+  margin-left: 350px;
+}
+.Partners .public .count .pright p {
+  text-align: left;
+}
+.Partners .public .count .pright .showimg1 {
+  list-style: none;
+}
+.Partners .public .count .pright .showimg1 li {
+  float: left;
+  width: 127px;
+  height: 82px;
+  margin: 15px;
+  cursor: pointer;
+}
+.Partners .public .count .pright .showimg1 li:nth-child(1) {
+  margin: 0 15px 15px 15px;
+}
+.bbg .public {
+  width: 100%;
+  height: 35px;
+  background: url(../img/hezuo_bottombg.png) no-repeat;
+  background-position-x: 200px;
+}
+.Contact {
+  background: #f1f2f6;
+}
+.Contact .public {
+  padding-top: 60px;
+}
+.Contact .public h1 {
+  text-align: center;
+  color: #322246;
+  margin-bottom: 0px;
+  margin: 0;
+}
+.Contact .public .bus {
+  text-align: center;
+  color: #322246;
+  margin-top: 10px;
+}
+.Contact .public .pointes {
+  color: #322246;
+  text-align: center;
+}
+.Contact .public .wrpa {
+  width: 100%;
+}
+.Contact .public .wrpa .left {
+  padding-top: 35px;
+  width: 650px;
+  float: left;
+}
+.Contact .public .wrpa .left .group1 {
+  width: 250px;
+  float: left;
+}
+.Contact .public .wrpa .left .group1 .lefticon {
+  width: 40px;
+  height: 40px;
+  background: #e7e8ec;
+  float: left;
+}
+.Contact .public .wrpa .left .group1 .lefticon span {
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url(../img/lianxi_icons.png) no-repeat;
+  float: left;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.Contact .public .wrpa .left .group1 input[type='text'] {
+  height: 34px;
+  padding-left: 10px;
+}
+.Contact .public .wrpa .left .group2 {
+  width: 250px;
+  float: right;
+}
+.Contact .public .wrpa .left .group2 .lefticon {
+  width: 40px;
+  height: 40px;
+  background: #e7e8ec;
+  float: left;
+}
+.Contact .public .wrpa .left .group2 .lefticon span {
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url(../img/lianxi_icons.png) no-repeat;
+  background-position: -43px;
+  float: left;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.Contact .public .wrpa .left .group2 input[type='text'] {
+  height: 34px;
+  padding-left: 10px;
+}
+.Contact .public .wrpa .left .emailbox {
+  width: 626px;
+  height: 150px;
+  border: 1px solid gray;
+  margin-top: 20px;
+}
+.Contact .public .wrpa .left .emailbox .imgshow {
+  width: 50px;
+  height: 150px;
+  background: #e7e8ec;
+  float: left;
+}
+.Contact .public .wrpa .left .emailbox .imgshow span {
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url(../img/lianxi_icons.png) no-repeat;
+  float: left;
+  margin: 5px 14px;
+}
+.Contact .public .wrpa .left .emailbox textarea {
+  padding-left: 10px;
+  height: 145px;
+  resize: none;
+  width: 562px;
+}
+.Contact .public .wrpa .right {
+  padding-top: 35px;
+  float: left;
+  width: 300px;
+}
+.Contact .public .wrpa .right .group1 {
+  width: 300px;
+}
+.Contact .public .wrpa .right .group1 .lefticon {
+  width: 40px;
+  height: 40px;
+  background: #e7e8ec;
+  float: left;
+}
+.Contact .public .wrpa .right .group1 .lefticon span {
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url(../img/lianxi_icons.png) no-repeat;
+  background-position: -94px;
+  float: left;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.Contact .public .wrpa .right .group1 input[type='text'] {
+  height: 34px;
+  padding-left: 10px;
+  width: 243px;
+}
+.Contact .public .wrpa .right .group2 {
+  width: 300px;
+  margin-top: 40px;
+}
+.Contact .public .wrpa .right .group2 .lefticon {
+  width: 40px;
+  height: 40px;
+  background: #2999d6;
+  float: left;
+}
+.Contact .public .wrpa .right .group2 .lefticon span {
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url(../img/lianxi_icons.png) no-repeat;
+  background-position: -43px;
+  float: left;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.Contact .public .wrpa .right .group2 input[type='button'] {
+  height: 40px;
+  width: 260px;
+  background: #168bcb;
+  border: none;
+  color: white;
+}
+.Contact .public .wrpa .right .group2 input[type='button']:hover {
+  background: #2999d6;
+  cursor: pointer;
+}
+.Contact .public .group3 {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.Contact .public .group3 .addresbox {
+  width: 330px;
+  float: left;
+}
+.Contact .public .group3 .addresbox .addressimg {
+  width: 101px;
+  height: 101px;
+  float: left;
+  cursor: pointer;
+}
+.Contact .public .group3 .addresbox .count {
+  padding-left: 10px;
+  float: left;
+}
+.Contact .public .group3 .addresbox .count h3 {
+  margin: 0 0 14px 0;
+}
+.Contact .public .group3 .addresbox .count .line {
+  width: 210px;
+  height: 7px;
+  background: url(../img/lianxi_kuaier_bg.png) no-repeat;
+}
+.Contact .public .group3 .addresbox .count p {
+  font-size: 12px;
+}
+.Contact .public .group3 .texbox {
+  width: 330px;
+  float: left;
+}
+.Contact .public .group3 .texbox .addressimg {
+  width: 101px;
+  height: 101px;
+  float: left;
+  cursor: pointer;
+}
+.Contact .public .group3 .texbox .count {
+  padding-left: 10px;
+  float: left;
+}
+.Contact .public .group3 .texbox .count h3 {
+  margin: 0 0 14px 0;
+}
+.Contact .public .group3 .texbox .count .line {
+  width: 210px;
+  height: 7px;
+  background: url(../img/lianxi_kuaier_bg.png) no-repeat;
+}
+.Contact .public .group3 .texbox .count p {
+  font-size: 12px;
+}
+.Contact .public .group3 .interbox {
+  width: 330px;
+  float: left;
+}
+.Contact .public .group3 .interbox .addressimg {
+  width: 101px;
+  height: 101px;
+  float: left;
+  cursor: pointer;
+}
+.Contact .public .group3 .interbox .count {
+  padding-left: 10px;
+  float: left;
+}
+.Contact .public .group3 .interbox .count h3 {
+  margin: 0 0 14px 0;
+}
+.Contact .public .group3 .interbox .count .line {
+  width: 210px;
+  height: 7px;
+  background: url(../img/lianxi_kuaier_bg.png) no-repeat;
+}
+.Contact .public .group3 .interbox .count p {
+  font-size: 12px;
+}
+#allmap {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+#allmap .bottombg {
+  position: absolute;
+  width: 100%;
+  height: 33px;
+  bottom: 0px;
+  z-index: 2;
+}
+.scro {
+  width: 50px;
+  height: 50px;
+  background: url(../img/scro.png) no-repeat;
+  position: fixed;
+  right: 50px;
+  bottom: 200px;
+  cursor: pointer;
+}
+.messa {
+  width: 87px;
+  height: 87px;
+  background: url(../img/mess.png) no-repeat;
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+  cursor: pointer;
+}
+.pho {
+  display: none;
+  width: 135px;
+  height: 35px;
+  background: url(../img/our.png) no-repeat;
+  position: fixed;
+  bottom: 130px;
+  right: 130px;
+}

@@ -1,0 +1,70 @@
+.public {
+  width: 1000px;
+  margin: 0 auto;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.clear {
+  clear: both;
+}
+.header {
+  width: 100%;
+  height: 120px;
+  background: url(../img/header_bg.jpg) no-repeat;
+}
+.header .public .logo {
+  float: left;
+}
+.header .public .logo img {
+  display: block;
+}
+.header .public .meau {
+  float: left;
+  font-size: 14px;
+  margin-left: 100px;
+}
+.header .public .meau > li {
+  color: white;
+  float: left;
+  padding: 0 11px;
+  line-height: 120px;
+  position: relative;
+}
+.header .public .meau > li img {
+  display: block;
+  float: right;
+  margin-top: 48px;
+  clear: both;
+}
+.header .public .meau > li:hover .secondmeau {
+  cursor: pointer;
+}
+.header .public .meau > li .secondmeau {
+  display: none;
+  font-size: 12px;
+  position: absolute;
+  z-index: 2;
+  width: 120px;
+}
+.header .public .meau > li .secondmeau > li {
+  background: #322246;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.header .public .meau > li .secondmeau > li:hover {
+  padding-left: 20px;
+  transition: padding-left 3000;
+  background: #221236;
+}
+.header .public .meau > li .secondmeau > li img {
+  margin-top: 10px;
+}

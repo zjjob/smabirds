@@ -1,0 +1,94 @@
+@import 'header';
+@import 'normalize';
+@import "footer";
+.main{
+    width: 100%;
+    background: #f1f2f6;
+    .public{
+        padding:100px 0;
+        .box1{
+            text-align: center;
+            color: #311859;
+            h1{
+                margin: 0;
+            }
+            h4{
+                margin: 0;
+            }
+            span{
+                display: inline-block;
+                width: 37px;
+                height: 8px;
+                margin-top: 10px;
+                background: url(../img/three_points01.png) no-repeat;
+            }
+        }
+        .title{
+            color:#311859;
+            font-family: 'SimSun';
+            background-image: url(../img/pen_line_long.png);
+            background-repeat: repeat-x;
+            background-position-y:52px; 
+            h3{
+                width: 900px;
+                float: left;
+            }
+            span{
+                display: inline-block;
+                width: 58px;
+                height: 58px;
+                background: url(../img/pen_list.png) no-repeat;
+                float: right;
+            }
+        }
+        .imgshow{
+            li{
+                width: 48%;
+                padding:10px 5px;
+                background: white;
+                margin-top: 15px;
+                margin-left:10px;
+                float: left;
+                .imgbox{
+                    width: 260px;
+                    height: 168px;
+                    float: left;
+                    cursor: pointer;
+                }
+                .count{
+                    padding-left: 10px;
+                    width: 200px;
+                    float: left;
+                    font-family: "SimSun";
+                    h4{
+                        margin:10px 0px;
+                    }
+                    p{
+                        margin:0;
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+        .mouse{
+            text-align: center;
+            padding-top: 30px;
+        }
+        .icon{
+            padding-top: 50px;
+            span{
+                display: block;
+                width: 58px;
+                height: 58px;
+                margin: 0 auto;
+                background: url(../img/lis_more_btn_bg.png) no-repeat;
+                &:hover{
+                    cursor: pointer;
+                    background-position-y: -58px;
+                    transition: background-position 0.5s;
+                }
+            }
+        }
+    }
+}

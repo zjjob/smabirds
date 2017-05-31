@@ -1,0 +1,1230 @@
+@import 'header';
+@import 'normalize';
+@import "footer";
+.banner{
+    img{
+        display: block;
+    }
+    width: 100%;
+    color:#322246;
+    position: relative;
+    img{
+        width:100%;
+    }
+    .img1{
+        display:inline-block;
+        position:absolute;
+        top:160px;
+        left: 0;
+    }
+    .img2{
+        display:inline-block;
+        position:absolute;
+        top:250px;
+        right:0;
+    }
+    .img3{
+        display:inline-block;
+        position:absolute;
+        top:300px;
+        left:430px;
+    }
+    .img4{
+        display:inline-block;
+        position:absolute;
+        top: 180px;
+        left: 400px;
+    }
+    .img5{
+        display:inline-block;
+        position:absolute;
+        top: 200px;
+        left: 320px;
+    }
+    .img6{
+        display:inline-block;
+        position:absolute;
+        top: 40px;
+        right: 0px;
+    }
+     .img7{
+        display:inline-block;
+        position:absolute;
+        top:160px;
+        left: 0;
+    }
+    .img8{
+        display:inline-block;
+        position:absolute;
+        top:250px;
+        right:0;
+    }
+    .img9{
+        display:inline-block;
+        position:absolute;
+        top:300px;
+        left:430px;
+    }
+    .btnGroup{
+            width:100%;
+            height: 29px;
+            position: absolute;
+            bottom:30px;
+            .btnGroupCount{
+                width:150px;
+                height:29px;
+                margin:0 auto;
+               // background: blue;
+                li{
+                    display:inline-block;
+                    width: 29px;
+                    height: 29px;
+                    &:hover{
+                        cursor:pointer;
+                    }
+                    &.left{
+                        background:url(../img/lefticon.png);
+                        &:hover{
+                            background:url(../img/lefticonbg.png);
+                        }
+                    }
+                    &.center{
+                         width: 82px;
+                        div{
+                            float:left;
+                            margin-top:3px;
+                            border-radius: 14px;
+                            border: 1px solid gray;
+                            margin:7px 0px 0px 20px;
+                            height:12px;
+                            line-height:8px;
+                            padding-left:6px;
+                            padding-right:6px;
+                             span{
+                                display:inline-block;
+                                width:6px;
+                                height:6px;
+                                border-radius:100%;
+                                background:gray;
+                                &.active{
+                                     background:blue;
+                                    }
+                                }
+                        }
+                    }
+                    &.right{
+                        background:url(../img/righticon.png);
+                        &:hover{
+                             background:url(../img/righticonbg.png);
+                        }
+                    }
+                }
+            }
+     }
+}
+.project{
+    background: #f1f2f6;
+    .public{
+        color: #311759;
+        padding-bottom: 48px;
+        .goon{
+            text-align: center;
+            padding-top: 48px;
+            font-size: 0px;
+            cursor:pointer;
+            img{
+                width: 58px;
+                height: 58px;
+            }
+        }
+        h1{
+            text-align: center;
+            margin: 60px 0 0 0;
+            font-family: "SimSun";
+        }
+        p{
+            text-align: center;
+            margin-top: 0;
+        }
+        .pointes{
+            text-align: center;
+            padding:20px 0 70px 0;
+        }
+        .mainbox{
+            width: 1000px;
+            height: 450px;
+            position: relative;
+            overflow: hidden;
+            .nav{
+                width: 19px;
+                height: 400px;
+                top: 20px;
+                position: absolute;
+                z-index: 2;
+                background: url(../img/chanpin_nowline_bgline.png) no-repeat;
+                background-repeat: repeat-y;
+                background-position-x: 10px;
+                span{
+                    background: url(../img/chanpin_nowline_xiaoquan.png);
+                    width: 11px;
+                    height: 11px;
+                    display: block;
+                    margin-top: 67px;
+                    margin-left: 4px;
+                    &:first-child{
+                        margin-top: 0;
+                        margin-left: 0;
+                    }
+                    &.active{
+                        width: 19px;
+                        height: 19px;
+                        background: url(../img/chanpin_nowline_daquan.png);
+                    }
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+            .btn-group{
+                height: 29px;
+                background-image:url(../img/next&prev_line.png);
+                background-repeat: repeat-x;
+                background-position: 10px;
+                width: 540px;
+                // background: yellow;
+                position: absolute;
+                top: 210px;
+                left: 460px;
+                z-index: 3;
+                span{
+                    width: 29px;
+                    height: 29px;
+                    display: inline-block;
+                }
+                .left{
+                    background:url(../img/lefticon.png);
+                    float: left;
+                    &:hover{
+                        background:url(../img/lefticonbg.png);
+                        cursor: pointer;
+                    }
+                }
+                .right{
+                    background:url(../img/righticon.png);
+                    float: right;
+                    &:hover{
+                        background:url(../img/righticonbg.png);
+                        cursor: pointer;
+                    }
+                }
+            }
+            .count{
+                width: 100%;
+                height: 450px;
+                padding:0px 30px;
+                position: absolute;
+                .imgbox{
+                    float: left;
+                    padding:0 30px;
+                }
+                .countright{
+                    width:540px;
+                    height: 450px;
+                    float: left;
+                    // background: gray;
+                    .title{
+                            height: 60px;
+                        h3{
+                            margin: 0;
+                            font-family: "SimSun";
+                            background: url('../img/pen_line.png') no-repeat;
+                            height: 60px;
+                            background-repeat:repeat-x;
+                            background-position-y: 59px;
+                            width: 490px;
+                            font-size: 30px;
+                            float: left;
+                        }
+                        span{
+                            display: inline-block;
+                            background:url(../img/pen.png) no-repeat;
+                            width: 50px;
+                            height: 60px;
+                            background-size: 100% 100%;                  
+                            float: right;
+                        }
+                    }
+                    .overview{
+                        padding-left: 10px;
+                        padding-top: 30px;
+                        color: #565559;
+                        img{
+                            width: 96px;
+                            height:96px;
+                            display: block;
+                            float: left;
+                        }
+                        .overviewcount{
+                            width: 420px;
+                            padding-left: 10px;
+                            float: left;
+                            h3{
+                                margin: 0;
+                            }
+                            p{
+                                margin: 0;
+                                font-size: 14px;
+                                text-align: left;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                     .font{
+                            margin-top: 100px;
+                            p{
+                                text-align: left;
+                                font-size: 14px;
+                                margin: 0;
+                                color: #565559;
+                            }
+                        }
+                    .bott{
+                        padding-top: 25px;
+                        .img1{
+                            height:18px;
+                            img{
+                                float: right;
+                                margin-right: 160px;
+                            }
+                        }
+                        .img2{
+                            display: block;
+                            float: right;
+                        }
+                        p{
+                            text-align: right;
+                            margin: 0;
+                            color: #565559;
+                            padding-right: 25px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.company{
+    width: 100%;
+    height: 923px;
+    background: url(../img/mokuai02_bg.jpg) no-repeat;
+    .public{
+        color: white;
+         h1{
+            text-align: center;
+            padding: 60px 0 0 0;
+            font-family: "SimSun";
+            padding-top: 120px;
+            margin: 0;
+        }
+        p{
+            text-align: center;
+            margin-top: 10px;
+        }
+        .pointes{
+            text-align: center;
+            padding:20px 0 70px 0;
+        }
+        .mainbox{
+            width: 1000px;
+            height: 450px;
+            position: relative;
+            overflow: hidden;
+            .btn-group{
+                height: 29px;
+                background-image:url(../img/next&prev_line.png);
+                background-repeat: repeat-x;
+                background-position: 10px;
+                width: 540px;
+                // background: yellow;
+                position: absolute;
+                top: 210px;
+                left: 460px;
+                z-index: 3;
+                span{
+                    width: 29px;
+                    height: 29px;
+                    display: inline-block;
+                }
+                .left{
+                    background:url(../img/lefticon.png);
+                    float: left;
+                    &:hover{
+                        background:url(../img/lefticonbg.png);
+                        cursor: pointer;
+                    }
+                }
+                .right{
+                    background:url(../img/righticon.png);
+                    float: right;
+                    &:hover{
+                        background:url(../img/righticonbg.png);
+                        cursor: pointer;
+                    }
+                }
+            }
+            .count{
+                width: 100%;
+                height: 450px;
+                padding:0px 30px;
+                position: absolute;
+                .imgbox{
+                    float: left;
+                    padding:0 30px;
+                }
+                .countright{
+                    width:540px;
+                    height: 450px;
+                    float: left;
+                    // background: gray;
+                    .title{
+                            height: 60px;
+                        h3{
+                            margin: 0;
+                            font-family: "SimSun";
+                            background: url('../img/pen_line.png') no-repeat;
+                            height: 60px;
+                            background-repeat:repeat-x;
+                            background-position-y: 59px;
+                            width: 490px;
+                            font-size: 30px;
+                            float: left;
+                        }
+                        span{
+                            display: inline-block;
+                            background:url(../img/pen.png) no-repeat;
+                            width: 50px;
+                            height: 60px;
+                            background-size: 100% 100%;                  
+                            float: right;
+                        }
+                    }
+                    .overview{
+                        padding-left: 10px;
+                        padding-top: 30px;
+                        color: #565559;
+                        img{
+                            width: 96px;
+                            height:96px;
+                            display: block;
+                            float: left;
+                        }
+                        .overviewcount{
+                            width: 420px;
+                            padding-left: 10px;
+                            float: left;
+                            h3{
+                                margin: 0;
+                            }
+                            p{
+                                margin: 0;
+                                font-size: 14px;
+                                text-align: left;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                    .line{
+                        width: 100%;
+                        height: 2px;
+                        margin: 0px;
+                        margin-top: 50px;
+                        background: url(../img/next&prev_line.png);
+                    }
+                     .font{
+                            margin-top: 50px;
+                            p{
+                                text-align: left;
+                                font-size: 14px;
+                                margin: 0;
+                                color: #565559;
+                                line-height: 24px;
+                                a{
+                                    color: white;
+                                }
+                            }
+                        }
+                    .bott{
+                        padding-top: 25px;
+                        .img1{
+                            height:18px;
+                            img{
+                                float: right;
+                                margin-right: 160px;
+                            }
+                        }
+                        .img2{
+                            display: block;
+                            float: right;
+                        }
+                        p{
+                            text-align: right;
+                            margin: 0;
+                            color: #565559;
+                            padding-right: 25px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.scope{
+    background: #f1f2f6;
+    .public{
+        .imgicon{
+            text-align: center;
+            padding-top: 35px;
+        }
+        h1{
+            text-align: center;
+            color:#322246;
+            margin-bottom: 0px;
+        }
+        .bus{
+            text-align: center;
+            color:#322246;
+            margin-top: 10px;
+        }
+        .pointes{
+            color:#322246;
+            text-align: center;
+        }
+        .scopebox{
+            padding: 58px 0;
+            border-bottom: 1px dashed gray;
+            .num1{
+                font-size: 90px;
+                color: gray;
+                font-family: "宋体";
+                padding-right: 40px;
+                float: left;
+            }
+            .title{
+                padding-top: 28px;
+                float: left;
+            }
+            .imgbox{
+                padding: 0 28px;
+                float: left;
+                img{
+                    width: 116px;
+                    height: 116px;
+                    display: block;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+            .title{
+                text-align: right;
+                h4{
+                    margin: 0;
+                }
+            }
+            .count{
+                float: left;
+                padding-top: 28px;
+                p{
+                    margin: 2px 0;
+                }
+            }
+            .yes{
+                 padding-left: 60px;
+                 padding-top: 28px;
+                 float: left;
+                span{
+                    display: inline-block;
+                    width:67px;
+                    height: 67px;
+                    background: url(../img/business_zhankaishouqi.png) no-repeat;
+                    &:hover{
+                        cursor: pointer;
+                    }   
+                }
+            }
+            .fontcount{
+                display: none;
+                width: 700px;
+                margin: 0 auto;
+                font-size: 14px;
+                text-indent: 6px;
+                padding-top: 40px;
+            }
+        }
+    }
+}
+.team{
+    background: #f1f2f6;
+    .public{
+        padding-bottom: 35px;
+        overflow: hidden;
+        .imgicon{
+            text-align: center;
+            padding-top: 35px;
+        }
+        h1{
+            text-align: center;
+            color:#322246;
+            margin-bottom: 0px;
+        }
+        .bus{
+            text-align: center;
+            color:#322246;
+            margin-top: 10px;
+        }
+        .pointes{
+            color:#322246;
+            text-align: center;
+        }
+        .imgbox{
+            position: relative;
+            .imgboxcount{
+                width: 1000px;
+                height: 188px;
+                position: absolute;
+                &.move0{
+                    z-index: 2;
+                }
+            }
+            margin: 80px 0;
+            width: 1000px;
+            height: 188px;
+            .leftshow{
+                border: 1px solid gray;
+                width: 48%;
+                float: left;
+                .box1{
+                    text-align: center;
+                    width: 156px;
+                    margin-top: -75px;
+                    color: #322246;
+                    float: left;
+                    margin-left: 10px;
+                    cursor: pointer;
+                    .bgimg{
+                        width: 156px;
+                        height: 156px;
+                        background: url(../img/team_img02.png) no-repeat;
+                    }
+                    .active{
+                        background: url(../img/team_img01.png) no-repeat;
+                    }
+                }
+                .box2{
+                    width: 200px;
+                    font-size: 12px;
+                    float: left;
+                    line-height: 28px;
+                    margin-left: 40px;
+                    padding: 20px 0;
+                    .message{
+                        height: 40px;
+                        .messageimg{
+                                height: 40px;
+                                width: 31px;
+                                background: #d9d9e1;
+                                float: left;
+                            span{  
+                                display:block;
+                                width: 21px;
+                                height: 21px;
+                                background:url(../img/team_contact.png) no-repeat;
+                                float: left;
+                                margin-top: 15px;
+                                margin-left: 5px;
+                            }
+                        }
+                        .send{
+                            float: left;
+                            width: 165px;
+                            height: 40px;
+                            text-align: center;
+                            background: #565559;
+                            line-height: 40px;
+                            color:#322246;
+                            button{
+                                background: #565559;
+                                cursor: pointer;
+                                border: 0; 
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+                .box3{
+                    width: 40px;
+                    height: 188px;
+                    background:#2999d6; 
+                    float: right;
+                    div{
+                        width: 40px;
+                        height: 47px;
+                        text-align: center;
+                        line-height: 47px;
+                        span{
+                            display: inline-block;
+                            width: 21px;
+                            height: 21px;
+                            cursor: pointer;
+                           &.icon1{
+                               background:url(../img/team_contact.png) no-repeat;
+                               background-position-y: -44px;
+                           }
+                             &.icon2{
+                               background:url(../img/team_contact.png) no-repeat;
+                               background-position-y: -88px;
+                           }
+                            &.icon3{
+                               background:url(../img/team_contact.png) no-repeat;
+                               background-position-y: -138px;
+                           }
+                            &.icon4{
+                               background:url(../img/team_contact.png) no-repeat;
+                               background-position-y: -176px;
+                           }
+                        }
+                    }
+                }
+            }
+            .rightshow{
+                border: 1px solid #565559;
+                width: 48%;
+                float: left;
+                margin-left: 30px;
+                .box1{
+                    text-align: center;
+                    width: 156px;
+                    margin-top: -75px;
+                    color: #322246;
+                    float: left;
+                    margin-left: 10px;
+                    cursor: pointer;
+                    .bgimg{
+                        width: 156px;
+                        height: 156px;
+                        background: url(../img/team_img03.png) no-repeat;
+                    }
+                }
+                .box2{
+                    width: 200px;
+                    font-size: 12px;
+                    float: left;
+                    line-height: 28px;
+                    margin-left: 40px;
+                    padding: 20px 0;
+                    .message{
+                        height: 40px;
+                        margin-top: 30px;
+                        .messageimg{
+                                height: 40px;
+                                width: 31px;
+                                background: #d9d9e1;
+                                float: left;
+                            span{  
+                                display:block;
+                                width: 21px;
+                                height: 21px;
+                                background:url(../img/team_contact.png) no-repeat;
+                                float: left;
+                                margin-top: 15px;
+                                margin-left: 5px;
+                            }
+                        }
+                        .send{
+                            float: left;
+                            width: 165px;
+                            height: 40px;
+                            text-align: center;
+                            background: #565559;
+                            line-height: 40px;
+                            color:#322246;
+                            button{
+                                background: #565559;
+                                cursor: pointer;
+                                border: 0; 
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+                .box3{
+                    width: 40px;
+                    height: 188px;
+                    background:#2999d6; 
+                    float: right;
+                    div{
+                        width: 40px;
+                        height: 47px;
+                        text-align: center;
+                        line-height: 47px;
+                         cursor: pointer;
+                        span{
+                            display: inline-block;
+                            width: 21px;
+                            height: 21px;
+                           &.icon1{
+                               background:url(../img/team_contact.png) no-repeat;
+                               background-position-y: -44px;
+                           }
+                             &.icon2{
+                               background:url(../img/team_contact.png) no-repeat;
+                               background-position-y: -88px;
+                           }
+                            &.icon3{
+                               background:url(../img/team_contact.png) no-repeat;
+                               background-position-y: -138px;
+                           }
+                            &.icon4{
+                               background:url(../img/team_contact.png) no-repeat;
+                               background-position-y: -176px;
+                           }
+                        }
+                    }
+                }
+            }
+        }
+        .btngroup{
+           .btnul{
+               width: 200px;
+               margin: 0 auto;
+                li{
+                    display: inline-block;
+                    &:nth-child(1){
+                        width: 29px;
+                        height: 29px;
+                        background: url(../img/lefticon.png) no-repeat;
+                        &:hover{
+                            background: url(../img/lefticonbg.png) no-repeat;
+                            cursor: pointer;
+                        }
+                    }
+                     &:nth-child(2){
+                        width: 100px;
+                        height: 29px;
+                        background-image: url(../img/next&prev_line.png);
+                        background-repeat: repeat-x;
+                        background-position: 10px;
+                        .spans{
+                            float: left;
+                            border: 1px solid gray;
+                            border-radius: 14px;
+                            padding: 0 10px;
+                            margin-left: 20px;
+                            margin-top: 4px;
+                            background: white;
+                            span{
+                                display:inline-block;
+                                width: 10px;
+                                height: 10px;
+                                border-radius: 100%;
+                                background: gray;
+                            }
+                            .active{
+                                background: blue;
+                            }
+                        }
+                    }
+                     &:nth-child(3){
+                        width: 29px;
+                        height: 29px;
+                        background: url(../img/righticon.png) no-repeat;
+                        &:hover{
+                            background: url(../img/righticonbg.png) no-repeat;
+                            cursor: pointer;
+                        }
+                    }
+                }
+           }
+        }
+    }
+}
+.manbg{
+    width: 100%;
+    height: 31px;
+    background: url(../img/map_topimg.png) no-repeat;
+}
+.Partners{
+    .public{
+          padding: 35px 0 100px 0;
+        h1{
+            text-align: center;
+            color:#322246;
+            margin-bottom: 0px;
+        }
+        .bus{
+            text-align: center;
+            color:#322246;
+            margin-top: 10px;
+        }
+        .pointes{
+            color:#322246;
+            text-align: center;
+        }
+        .count{
+            width: 100%;
+            .pleft{
+                width: 49.8%;
+                border-right: 1px solid gray;
+                float: left;
+                height: 449px;
+                h3{
+                    color:#322246;
+                     margin-bottom: 5px;
+                     font-size: 30px;
+                }
+                p{
+                    text-align: left;
+                }
+                .showimg1{
+                    list-style: none;
+                    li{
+                        float: left;
+                        width: 127px;
+                        height: 82px;
+                        margin: 18px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .pright{
+                width: 48%;
+                float: right;
+                h3{
+                    font-size: 30px;
+                    color:#322246;
+                    margin-bottom: 5px;
+                    span{
+                        display: inline-block;
+                        height: 16px;
+                        font-size: 12px;
+                        padding: 5px 10px;
+                        border: 1px solid gray;
+                        line-height: 14px;
+                        border-radius: 14px;
+                        margin-left: 350px;
+                    }
+                }
+                p{
+                    text-align: left;
+                }
+                 .showimg1{
+                    list-style: none;
+                    li{
+                        float: left;
+                        width: 127px;
+                        height: 82px;
+                        margin: 15px;
+                        cursor: pointer;
+                        &:nth-child(1){
+                            margin: 0 15px 15px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.bbg{
+    .public{
+        width: 100%;
+        height: 35px;
+        background: url(../img/hezuo_bottombg.png) no-repeat;
+        background-position-x: 200px;
+    }
+}
+.Contact{
+    background:#f1f2f6;
+    .public{
+        padding-top: 60px;
+        h1{
+            text-align: center;
+            color:#322246;
+            margin-bottom: 0px;
+            margin: 0;
+        }
+        .bus{
+            text-align: center;
+            color:#322246;
+            margin-top: 10px;
+        }
+        .pointes{
+            color:#322246;
+            text-align: center;
+        }
+        .wrpa{
+            width: 100%;
+            .left{
+                padding-top: 35px;
+                width: 650px;
+                float: left;
+                // background: yellow;
+               .group1{
+                   width: 250px;
+                   float: left;
+                   .lefticon{
+                        width: 40px;
+                        height: 40px;
+                        background:#e7e8ec;
+                        float: left;
+                            span{
+                            display: block;
+                            width: 19px;
+                            height: 19px;
+                            background: url(../img/lianxi_icons.png) no-repeat; 
+                            float: left; 
+                            margin-left: 12px;
+                            margin-top: 11px;
+                        }
+                   }
+                   input[type='text']{
+                       height: 34px;
+                       padding-left: 10px;
+                   }
+               }
+               .group2{
+                   width: 250px;
+                   float: right;
+                   .lefticon{
+                        width: 40px;
+                        height: 40px;
+                        background:#e7e8ec;
+                        float: left;
+                            span{
+                            display: block;
+                            width: 19px;
+                            height: 19px;
+                            background: url(../img/lianxi_icons.png) no-repeat;
+                            background-position: -43px; 
+                            float: left; 
+                            margin-left: 12px;
+                            margin-top: 11px;
+                        }
+                   }
+                   input[type='text']{
+                       height: 34px;
+                       padding-left: 10px;
+                   }
+               }
+               .emailbox{
+                   width: 626px;
+                   height: 150px;
+                   border: 1px solid gray;
+                   margin-top: 20px;
+                   .imgshow{
+                       width: 50px;
+                       height: 150px;
+                       background:#e7e8ec; 
+                       float: left;
+                       span{
+                            display: block;
+                            width: 19px;
+                            height: 19px;
+                            background: url(../img/lianxi_icons.png) no-repeat;
+                            float: left;
+                            margin: 5px 14px;
+                       }
+                   }
+                   textarea{
+                       padding-left: 10px;
+                       height: 145px;
+                       resize: none;
+                       width: 562px;
+                   }
+               }
+            }
+            .right{
+                padding-top: 35px;
+                float: left;
+                width: 300px;
+                .group1{
+                   width: 300px;
+                   .lefticon{
+                        width: 40px;
+                        height: 40px;
+                        background:#e7e8ec;
+                        float: left;
+                            span{
+                            display: block;
+                            width: 19px;
+                            height: 19px;
+                            background: url(../img/lianxi_icons.png) no-repeat; 
+                            background-position: -94px;
+                            float: left; 
+                            margin-left: 12px;
+                            margin-top: 11px;
+                        }
+                   }
+                   input[type='text']{
+                       height: 34px;
+                       padding-left: 10px;
+                       width: 243px;
+                   }
+               }
+                .group2{
+                   width: 300px;
+                   margin-top: 40px;
+                   .lefticon{
+                        width: 40px;
+                        height: 40px;
+                        background:#2999d6;
+                        float: left;
+                            span{
+                            display: block;
+                            width: 19px;
+                            height: 19px;
+                            background: url(../img/lianxi_icons.png) no-repeat;
+                            background-position: -43px; 
+                            float: left; 
+                            margin-left: 12px;
+                            margin-top: 11px;
+                        }
+                   }
+                   input[type='button']{
+                       height: 40px;
+                       width: 260px;
+                       background: #168bcb;
+                       border: none;
+                       color: white;
+                       &:hover{
+                           background:#2999d6;
+                           cursor: pointer;
+                       }
+                   }
+               }
+            }
+        }
+        .group3{
+            padding-top: 50px;
+            padding-bottom: 60px;
+            .addresbox{
+                width: 330px;
+                float: left;
+                .addressimg{
+                    width:101px;
+                    height: 101px;
+                    float: left;
+                    cursor: pointer;
+                }
+                .count{
+                    padding-left: 10px;
+                    float:left;
+                    h3{
+                        margin: 0 0 14px 0;
+                    }
+                        .line{
+                        width: 210px;
+                        height: 7px;
+                        background: url(../img/lianxi_kuaier_bg.png) no-repeat;
+                        // background-size: 7px 210px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+            .texbox{
+                width: 330px;
+                float: left;
+                .addressimg{
+                    width:101px;
+                    height: 101px;
+                    float: left;
+                    cursor: pointer;
+                }
+                .count{
+                    padding-left: 10px;
+                    float:left;
+                    h3{
+                        margin: 0 0 14px 0;
+                    }
+                        .line{
+                        width: 210px;
+                        height: 7px;
+                        background: url(../img/lianxi_kuaier_bg.png) no-repeat;
+                        // background-size: 7px 210px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+            .interbox{
+                width: 330px;
+                float: left;
+                .addressimg{
+                    width:101px;
+                    height: 101px;
+                    float: left;
+                    cursor: pointer;
+                }
+                .count{
+                    padding-left: 10px;
+                    float:left;
+                    h3{
+                        margin: 0 0 14px 0;
+                    }
+                        .line{
+                        width: 210px;
+                        height: 7px;
+                        background: url(../img/lianxi_kuaier_bg.png) no-repeat;
+                        // background-size: 7px 210px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+#allmap{
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    .bottombg{
+        position: absolute;
+        width: 100%;
+        height: 33px;
+        bottom: 0px;
+        z-index: 2;
+    }
+}
+.scro{
+    width: 50px;
+    height: 50px;
+    background: url(../img/scro.png) no-repeat;
+    position: fixed;
+    right: 50px;
+    bottom: 200px;
+    cursor: pointer;
+}
+.messa{
+    width: 87px;
+    height: 87px;
+    background: url(../img/mess.png) no-repeat;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    cursor: pointer;
+}
+.pho{
+    display: none;
+    width: 135px;
+    height: 35px;
+    background: url(../img/our.png) no-repeat;
+    position: fixed;
+    bottom: 130px;
+    right: 130px;
+}

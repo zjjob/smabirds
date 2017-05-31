@@ -1,0 +1,248 @@
+@import 'header';
+@import 'normalize';
+@import "footer";
+body,
+html {
+    width: 100%;
+}
+
+.warp {
+    width: 100%;
+    height: 3646px;
+    .banner {
+        //display: none;
+        width: 100%;
+        height: 700px;
+        background-color: #221236;
+        .public {
+            padding-top: 75px;
+            .bannerIcion {
+                width: 224px;
+                height: 200px;
+                margin: 0 auto;
+                img {
+                    display: block;
+                }
+            }
+            h1 {
+                text-align: center;
+                color: #FFFFFF;
+                font-family: 'SimSun';
+                margin-top: 32px;
+                margin-bottom: 0;
+            }
+            .bannerIcion2 {
+                width: 508px;
+                height: 103px;
+                margin: 0 auto;
+                img {
+                    display: block;
+                }
+            }
+            .font1 {
+                text-align: center;
+                color: #FFFFFF;
+                font-size: 14px;
+                margin-top: 5px;
+            }
+            .font2 {
+                width: 400px;
+                text-align: center;
+                color: #FFFFFF;
+                font-size: 14px;
+                margin: 0 auto;
+            }
+            .bannerIcion3 {
+                width: 74px;
+                height: 75px;
+                margin: 40px auto 0;
+                cursor: pointer;
+                img {
+                    display: block;
+                }
+            }
+        }
+    }
+    .banner2 {
+        // display: none;
+        width: 100%;
+        height: 700px;
+        position: relative;
+        .public {
+            h1 {
+                text-align: center;
+                color: #332347;
+                margin: 0;
+                padding: 35px 0;
+            }
+            .pquotes {
+                width: 732px;
+                height: 92px;
+                margin: 0 auto;
+                img {
+                    display: block;
+                }
+            }
+            .showbox {
+                width: 1000px;
+                height: 390px;
+                margin: 0;
+                padding: 40px 0;
+                .showimg {
+                    li {
+                        width: 195px;
+                        height: 382px;
+                        float: left;
+                        margin: 0 26px;
+                        cursor: pointer;
+                        img {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        .leftbtn {
+            width: 58px;
+            height: 58px;
+            position: absolute;
+            background-image: url("../img/aboutxiaoniao/goleft.png");
+            left: 30px;
+            top: 301px;
+            &:hover{
+                cursor: pointer;
+                background-position-x:-58px;
+                transition: background-position 0.5s;
+            }
+        }
+        .rightbtn {
+            width: 58px;
+            height: 58px;
+            position: absolute;
+            background-image: url("../img/aboutxiaoniao/goright.png");
+            background-position-x:-58px;
+            right: 30px;
+            top: 301px;
+            &:hover{
+                cursor: pointer;
+                background-position-x:0px;
+                transition: background-position 0.5s;
+            }
+        }
+    }
+    .banner3{
+        width: 100%;
+        height: 700px;
+        background: #221236;
+        .public{
+            h1{
+                text-align: center;
+                color: white;
+                margin: 0;
+                padding: 55px 0;
+           }
+           .box1{
+               span{
+                   display: inline-block;
+                   width: 50px;
+                   height: 53px;
+                   cursor: pointer;
+               }
+               .left1img{
+                   background: url(../img/d1.png) no-repeat;
+                   float: left;
+               }
+               .right1img{
+                   background: url(../img/d2.png) no-repeat;
+                   float: right;
+               }
+           }
+           .showbox{
+               width: 900px;
+               margin: auto;
+               li{
+                   width: 400px;
+                   float: left;
+                   margin:10px 0 20px 40px;
+                   .imgbox{
+                       width: 85px;
+                       height: 80px;
+                       cursor: pointer;
+                       float: left;
+                       img{
+                           display: block;
+                           width: 100%;
+                       }
+                   }
+                   p{
+                       width: 280px;
+                       font-size: 14px;
+                       color: #FFFFFF;
+                       float: left;
+                       padding-left: 20px;
+                       padding-top: 10px;
+                       line-height: 20px;
+                   }
+               }
+           }
+           .box2{
+               span{
+                   display: inline-block;
+                   width: 50px;
+                   height: 53px;
+                   cursor: pointer;
+               }
+               .left2img{
+                   background: url(../img/d3.png) no-repeat;
+                   float: left;
+               }
+               .right2img{
+                   background: url(../img/d4.png) no-repeat;
+                   float: right;
+               }
+           }
+        }
+    }
+    .banner4{
+        width: 100%;
+        height: 700px;
+        background: #f1f2f6;
+        .public{
+            h1{
+                margin: 0;
+                padding: 90px 0;
+                text-align: center;
+                color: #221236;
+            }
+            p{
+                font-size: 16px;
+                text-indent: 20px;
+                border-bottom: 1px dashed lightgray;
+                padding: 10px 0; 
+                margin: 0;          
+                }
+            .btn{
+                width: 300px;
+                padding: 20px 0;
+                margin: auto;
+                span{
+                    display: inline-block;
+                    width: 120px;
+                    height: 20px;
+                    border-radius: 6px;
+                }
+                .btn1{
+                    background: #006fd6;
+                }
+                .btn2{
+                    background: #acacac;
+                }
+            }
+        }
+    }
+    .banner5{
+        width: 100%;
+        height: 846px;
+        background: url(../img/banner5.png);
+    }
+}
